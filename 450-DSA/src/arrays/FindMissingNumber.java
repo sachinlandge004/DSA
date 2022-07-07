@@ -5,10 +5,9 @@ public class FindMissingNumber {
 	public static void main(String[] args) {
 		int arr[] = { 1, 2, 4, 5 };
 		System.out.println(findMissing(arr)); 
-
 	}
 
-	private static int findMissing(int[] nums) {
+	public static int findMissing(int[] nums) {
 
 		/*
 		 * Calculate the sum of first n natural numbers as sumtotal= n*(n+1)/2 Create a
